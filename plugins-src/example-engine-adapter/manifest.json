@@ -1,0 +1,26 @@
+{
+  "id": "com.mouvi.examples.engine-adapter",
+  "name": "Example: Engine Adapter",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "Mouvi Examples",
+  "description": "Демонстрация хука engineProvider: prepareEngineConnection адаптирует кастомный формат (mouvi-adapter://demo) в валидный WireGuard-конфиг для нативного движка.",
+  "minAppVersion": "1.4.0",
+  "permissions": [
+    "engineAccess",
+    "configsMetadata",
+    "connectionState",
+    "uiExtensions"
+  ],
+  "hooks": [
+    "engineProvider",
+    "uiExtensions"
+  ],
+  "runtime": "javascript",
+  "entry": "main.js",
+  "engine": {
+    "type": "adapter",
+    "targetProtocols": ["wireguard"]
+  },
+  "ui": { "entryScreen": "main" }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "com.mouvi.examples.ui-extensions",
+  "name": "Example: UI Extensions",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "Mouvi Examples",
+  "description": "Демонстрация хука uiExtensions: экран плагина с элементами (text/keyValue/button) и обработкой действий onUiAction.",
+  "minAppVersion": "1.4.0",
+  "permissions": [
+    "ownStorage",
+    "uiExtensions"
+  ],
+  "hooks": [
+    "uiExtensions"
+  ],
+  "runtime": "javascript",
+  "entry": "main.js",
+  "ui": { "entryScreen": "main" }
+}

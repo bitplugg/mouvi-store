@@ -3,9 +3,51 @@
     {
       "id": "com.example.hello-import",
       "name": "Hello Import (Example)",
-      "version": "1.0.0",
-      "description": "Эталонный плагин: декларативное распознавание конфигов (mouvi-example://, [MouviExample]).",
+      "version": "1.1.0",
+      "description": "Комбинированный runtime-пример: importValidation, connectionEvents, uiExtensions, uriHandlers и engineProvider (адаптер-демо).",
       "downloadUrl": "https://raw.githubusercontent.com/bitplugg/mouvi-store/master/hello-import.mu"
+    },
+    {
+      "id": "com.mouvi.examples.import-rules",
+      "name": "Example: Import Rules (Declarative)",
+      "version": "1.0.0",
+      "description": "Возможность mouvi-engine: декларативный importValidation через importRules (без runtime-кода).",
+      "downloadUrl": "https://raw.githubusercontent.com/bitplugg/mouvi-store/master/example-import-rules.mu"
+    },
+    {
+      "id": "com.mouvi.examples.import-runtime",
+      "name": "Example: Import Runtime (Code)",
+      "version": "1.0.0",
+      "description": "Возможность mouvi-engine: runtime importValidation (onImportValidate), кодовый парсинг/нормализация и ownStorage.",
+      "downloadUrl": "https://raw.githubusercontent.com/bitplugg/mouvi-store/master/example-import-runtime.mu"
+    },
+    {
+      "id": "com.mouvi.examples.connection-events",
+      "name": "Example: Connection Events",
+      "version": "1.0.0",
+      "description": "Возможность mouvi-engine: connectionEvents (beforeConnect/afterConnect/disconnect/connectError/networkChange) + отображение состояния.",
+      "downloadUrl": "https://raw.githubusercontent.com/bitplugg/mouvi-store/master/example-connection-events.mu"
+    },
+    {
+      "id": "com.mouvi.examples.ui-extensions",
+      "name": "Example: UI Extensions",
+      "version": "1.0.0",
+      "description": "Возможность mouvi-engine: uiExtensions (getUiExtensions/onUiAction), декларативный UI и действия с ownStorage.",
+      "downloadUrl": "https://raw.githubusercontent.com/bitplugg/mouvi-store/master/example-ui-extensions.mu"
+    },
+    {
+      "id": "com.mouvi.examples.uri-handler",
+      "name": "Example: URI Handler",
+      "version": "1.0.0",
+      "description": "Возможность mouvi-engine: uriHandlers (handleUri) для обработки кастомных URI mouvi-uri-example://.",
+      "downloadUrl": "https://raw.githubusercontent.com/bitplugg/mouvi-store/master/example-uri-handler.mu"
+    },
+    {
+      "id": "com.mouvi.examples.engine-adapter",
+      "name": "Example: Engine Adapter",
+      "version": "1.0.0",
+      "description": "Возможность mouvi-engine: engineProvider (prepareEngineConnection) — адаптация кастомного формата к нативному движку (WireGuard, демо).",
+      "downloadUrl": "https://raw.githubusercontent.com/bitplugg/mouvi-store/master/example-engine-adapter.mu"
     }
   ]
 }

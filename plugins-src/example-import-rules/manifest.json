@@ -1,0 +1,23 @@
+{
+  "id": "com.mouvi.examples.import-rules",
+  "name": "Example: Import Rules (Declarative)",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "Mouvi Examples",
+  "description": "Демонстрация хука importValidation через декларативные importRules (без runtime-кода). Распознаёт mouvi-rules:// и [MouviRulesExample].",
+  "minAppVersion": "1.4.0",
+  "permissions": [
+    "configsMetadata"
+  ],
+  "hooks": [
+    "importValidation"
+  ],
+  "importRules": [
+    {
+      "id": "mouvi-rules-uri",
+      "label": "Mouvi Rules Example",
+      "uriSchemes": ["mouvi-rules://"],
+      "containsAny": ["[MouviRulesExample]"]
+    }
+  ]
+}

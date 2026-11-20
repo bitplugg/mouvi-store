@@ -1,0 +1,22 @@
+{
+  "id": "com.mouvi.examples.connection-events",
+  "name": "Example: Connection Events",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "Mouvi Examples",
+  "description": "Демонстрация хука connectionEvents: получает события подключения/сети, сохраняет историю в ownStorage и показывает её в UI.",
+  "minAppVersion": "1.4.0",
+  "permissions": [
+    "ownStorage",
+    "connectionState",
+    "trafficStats",
+    "uiExtensions"
+  ],
+  "hooks": [
+    "connectionEvents",
+    "uiExtensions"
+  ],
+  "runtime": "javascript",
+  "entry": "main.js",
+  "ui": { "entryScreen": "main" }
+}

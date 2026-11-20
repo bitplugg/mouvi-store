@@ -1,0 +1,38 @@
+{
+  "id": "com.example.hello-import",
+  "name": "Hello Import (Example)",
+  "version": "1.1.0",
+  "apiVersion": 1,
+  "author": "Mouvi Examples",
+  "description": "Эталонный runtime-плагин: кодовый importValidation, события соединения, UI-расширение и engine-адаптер (демо).",
+  "permissions": [
+    "ownStorage",
+    "connectionState",
+    "configsMetadata",
+    "uiExtensions",
+    "engineAccess"
+  ],
+  "hooks": [
+    "importValidation",
+    "connectionEvents",
+    "uiExtensions",
+    "engineProvider"
+  ],
+  "runtime": "javascript",
+  "entry": "main.js",
+  "engine": {
+    "type": "adapter",
+    "note": "Демо: prepareEngineConnection может преобразовывать неподдерживаемый формат в wireguard/amneziawg/vless при наличии данных."
+  },
+  "ui": {
+    "entryScreen": "main"
+  },
+  "importRules": [
+    {
+      "id": "mouvi-example-uri",
+      "label": "Mouvi Example",
+      "uriSchemes": ["mouvi-example://"],
+      "containsAny": ["[MouviExample]"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "com.mouvi.examples.uri-handler",
+  "name": "Example: URI Handler",
+  "version": "1.0.0",
+  "apiVersion": 1,
+  "author": "Mouvi Examples",
+  "description": "Демонстрация хука uriHandlers: handleUri обрабатывает ссылки mouvi-uri-example:// и сохраняет последний результат.",
+  "minAppVersion": "1.4.0",
+  "permissions": [
+    "ownStorage",
+    "uriHandlers",
+    "uiExtensions"
+  ],
+  "hooks": [
+    "uriHandlers",
+    "uiExtensions"
+  ],
+  "runtime": "javascript",
+  "entry": "main.js",
+  "ui": { "entryScreen": "main" }
+}
