@@ -1,2 +1,9 @@
-# mouvi-store
-Official Mouvi plugin store catalog and example .mu plugins
+# Mouvi Plugin Store
+
+Официальный каталог `.mu`-плагинов для [Mouvi](https://github.com/bitplugg/mouvi).
+
+- `index.json` — индекс каталога, который читает приложение (Настройки → Плагины → Открыть каталог магазина).
+- Плагины из этого репозитория считаются официальным источником (`bitplugg/mouvi-store`) и не требуют дополнительного подтверждения рисков при установке/включении.
+
+## Формат `.mu`
+`.mu` — ZIP-архив с `manifest.json` в корне. Пример: `hello-import.mu`.

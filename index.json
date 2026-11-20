@@ -1,0 +1,11 @@
+{
+  "plugins": [
+    {
+      "id": "com.example.hello-import",
+      "name": "Hello Import (Example)",
+      "version": "1.0.0",
+      "description": "Эталонный плагин: декларативное распознавание конфигов (mouvi-example://, [MouviExample]).",
+      "downloadUrl": "https://raw.githubusercontent.com/bitplugg/mouvi-store/main/hello-import.mu"
+    }
+  ]
+}
